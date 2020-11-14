@@ -25,3 +25,9 @@ jobs:
             
       - name: branch number
         run : echo ${{ github.ref }}
+            
+      - name: branch number
+        run : echo ${{ github.head_ref }}
+            
+      - name: branch number
+        run : echo ${{ github.base_ref }}
